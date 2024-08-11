@@ -584,6 +584,17 @@ ul.wp-block-rss a {
 .logged-in .preloader .vs-btn {
     top: 0;
   }
+  .sec-title3.h1,
+  .sec-title.h1,
+  .sec-title4 {
+      font-size: 24px !important;
+    }
+    .fs-md{
+      font-size: 16px !important;
+    }
+  .img-box8 .img-1 img {
+    height: 299px !important;
+  }
   .project-div .nav-pills .nav-link{
     font-size: 10px;
     padding: 5px 8px;
@@ -1320,6 +1331,9 @@ textarea.is-invalid {
     --icon-size: 40px;
     margin-right: 40px;
   }
+  .img-box8 .img-1 img {
+    max-width: 100% !important;
+  }
   .slick-arrow.slick-next {
     margin-right: 0;
     margin-left: 40px;
@@ -1976,6 +1990,10 @@ textarea.is-invalid {
     --extra-shape: -4px;
     right: 15px;
     bottom: 50px;
+  }
+  .service-title{
+    min-height: unset !important;
+    margin-bottom: 15px !important;
   }
   .scroll-btn.show {
     bottom: 15px;
@@ -7938,7 +7956,7 @@ blockquote.vs-quote .quote-author {
     display: none;
   }
   .img-box8 .img-1 img {
-    width: 100%;
+    max-width: 540px; height: 599px; width: 100%; object-fit: cover; box-shadow: 0px 0px 5px lightgray; border-radius: 12px;
   }
 
   .about-shape3 {
@@ -8717,7 +8735,7 @@ blockquote.vs-quote .quote-author {
 /* Large devices */
 @media (max-width: 1199px) {
   .service-style1 {
-    padding: 40px 20px;
+    padding: 20px;
   }
   .service-style1 .service-icon {
     margin: 0 0 18px 0;
@@ -9667,8 +9685,8 @@ blockquote.vs-quote .quote-author {
     padding: 0 20px 0px 20px;
   }
   .accordion-style1.layout2 .accordion-button {
-    padding: 14.5px 20px;
-    font-size: 16px;
+    padding: 10px 12px;
+    font-size: 14px;
   }
   .accordion-style1.layout2 .accordion-body {
     padding: 25px 20px 23px 20px;
@@ -9775,6 +9793,13 @@ blockquote.vs-quote .quote-author {
 }
 .testi-style1 .testi-text {
   margin: 0 0 22px 0;
+}
+.testi-style4 .testi-text {
+  margin: 0 0 22px 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 .testi-style1 .testi-name {
   margin: 0;
@@ -10001,6 +10026,7 @@ blockquote.vs-quote .quote-author {
 .testi-style4 .author-img img {
   border-radius: 50%;
   width: 100%;
+  aspect-ratio: 1/1;
 }
 .testi-style4 .quote {
   background-color: var(--white-color);
@@ -11131,8 +11157,8 @@ blockquote.vs-quote .quote-author {
     border-radius: 10px;
   }
   .filter-menu1 button {
-    font-size: 14px;
-    padding: 15px 22px;
+    font-size: 12px;
+    padding: 10px;
   }
 }
 /* Extra small devices */
