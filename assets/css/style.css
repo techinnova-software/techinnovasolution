@@ -584,6 +584,9 @@ ul.wp-block-rss a {
 .logged-in .preloader .vs-btn {
     top: 0;
   }
+  .slider-tech-img{
+    width: 100px !important;
+  }
   .sec-title3.h1,
   .sec-title.h1,
   .sec-title4 {
@@ -850,7 +853,6 @@ ul.wp-block-rss a {
   .container-style1 {
     max-width: 1576px;
     overflow: hidden;
-    margin-right: 0;
     padding-right: 0;
   }
 }
@@ -1411,8 +1413,6 @@ textarea.is-invalid {
 }
 
 .vs-mobile-menu {
-  overflow-y: scroll;
-  max-height: calc(100vh - 200px);
   padding-bottom: 40px;
   margin-top: 33px;
   text-align: left;
@@ -1677,7 +1677,7 @@ textarea.is-invalid {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
-  padding: 19px 30.5px;
+  padding: 10px 20px;
   border-radius: 5px;
   z-index: 1;
   overflow: hidden;
@@ -2538,6 +2538,15 @@ a.text-theme:hover,
   left: 0;
   height: 100%;
   width: 100%;
+}
+
+.overlay-index{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00000070;
 }
 
 .position-center {
@@ -7850,7 +7859,6 @@ blockquote.vs-quote .quote-author {
 }
 
 .about-box2 {
-  padding: var(--section-space, 120px) 0;
   max-width: 600px;
 }
 .about-box2 .author-degi {
@@ -12171,13 +12179,79 @@ blockquote.vs-quote .quote-author {
   margin: 0 0 10px 0;
   padding: 5px 0;
 }
+
+.dropdown-div{
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 0;
+}
+
+.dropdown-div#mobileDropdowndiv{
+  position: unset !important;
+  transform: unset;
+}
+
+.dropdown-div#mobileDropdowndiv li a, .dropdown-div#mobileDropdowndiv li{
+  min-width: unset !important;
+}
+
+.dropdown-div.w-full>a{
+  display: none;
+}
+
+.dropdown-navitem:hover .dropdown-div{
+  display: flex;
+}
+
+.dropdown-div li a,
+.dropdown-div li{
+  min-width: max-content;
+  display: block;
+  width: 100%;
+  color: #000;
+  padding: 5px 7px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: start;
+}
+
+.dropdown-div li:hover{
+  background-color: #0037ff;
+  color: white !important;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+.dropdown-div li a:hover{
+  background-color: #0037ff;
+  color: white !important;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
 .slider-tech-img img{
-  width: 100px;
-  height: 100px;
+  height: 70px !important;
   object-fit: contain;
+}
+
+.slider-tech-img{
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
 }
 
 .tech-section .slick-track{
   display: flex;
   align-items: center;
+  gap: 10px;
 }

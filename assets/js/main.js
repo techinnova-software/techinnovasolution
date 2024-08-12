@@ -25,11 +25,12 @@
   ==================================*/
   /*
 
+  
+
   /*---------- 01. On Load Function ----------*/
   $(window).on('load', function () {
     $('.preloader').fadeOut();
   });
-
 
 
   /*---------- 02. Preloader ----------*/
