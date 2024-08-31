@@ -1333,6 +1333,14 @@ textarea.is-invalid {
     --icon-size: 40px;
     margin-right: 40px;
   }
+  .dropdown-div#mobileDropdowndiv{
+    position: unset !important;
+    transform: unset;
+  }
+  
+  .dropdown-div#mobileDropdowndiv li a, .dropdown-div#mobileDropdowndiv li{
+    min-width: fit-content !important;
+  }
   .img-box8 .img-1 img {
     max-width: 100% !important;
   }
@@ -8712,6 +8720,11 @@ blockquote.vs-quote .quote-author {
   z-index: -1;
 }
 
+.service-sidebar{
+  position: sticky;
+  top: 0px;
+}
+
 .service-sidebar .widget_nav_menu a::before,
 .service-sidebar .widget_meta a::before,
 .service-sidebar .widget_pages a::before,
@@ -12195,15 +12208,6 @@ blockquote.vs-quote .quote-author {
   background-color: white;
   border: 1px solid lightgray;
   padding: 0;
-}
-
-.dropdown-div#mobileDropdowndiv{
-  position: unset !important;
-  transform: unset;
-}
-
-.dropdown-div#mobileDropdowndiv li a, .dropdown-div#mobileDropdowndiv li{
-  min-width: unset !important;
 }
 
 .dropdown-div.w-full>a{
