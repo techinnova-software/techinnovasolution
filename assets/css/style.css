@@ -5395,7 +5395,7 @@ blockquote.vs-quote .quote-author {
 .blog-single .blog-img > * {
   border-radius: 5px 5px 0 0;
 }
-.blog-img img{
+.blog-head-img{
   height: 250px;
 }
 .blog-single .blog-img .slick-arrow {

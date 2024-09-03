@@ -676,3 +676,7 @@
 
 
 })(jQuery);
+
+function handleSubmit(){
+  location.reload();
+}
