@@ -3463,6 +3463,9 @@ a.text-theme:hover,
 }
 .footer-link-section .footer-link-box_title {
   margin: 0 0 27px 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 .footer-link-section.footer-link-box_meta, .footer-link-section.footer-link-box_pages, .footer-link-section.footer-link-box_archive, .footer-link-section.footer-link-box_categories, .footer-link-section.footer-link-box_nav_menu {
   margin-bottom: 40px;
