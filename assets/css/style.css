@@ -9364,7 +9364,7 @@ blockquote.vs-quote .quote-author {
   margin: 0 0 22px 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 6;
   overflow: hidden;
 }
 
