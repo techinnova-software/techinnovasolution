@@ -1,22 +1,22 @@
-.sec-title3,
-.sec-title {
+.section-heading3,
+.section-heading {
   text-transform: uppercase;
   line-height: 1.35;
   margin: -0.25em 0 18px 0;
 }
 
-.sec-title2 {
+.section-heading2 {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   margin: -0.3em 0 22px 0;
 }
 
-.sec-title3 {
+.section-heading3 {
   text-transform: capitalize;
 }
 
-.sec-title4 {
+.section-heading4 {
   font-size: 60px;
   line-height: 1.2;
 }
@@ -49,7 +49,7 @@
   }
 }
 
-.title-area {
+.heading-area {
   margin-bottom: calc(var(--section-title-space) - 17px);
 }
 
@@ -76,7 +76,7 @@
   align-items: center;
   margin: 0 0 80px 0;
 
-  .sec-title2 {
+  .section-heading2 {
     margin: -0.3em 0 -0.4em 0;
   }
 }
@@ -102,21 +102,21 @@
 }
 
 @include ml {
-  .sec-title4 {
+  .section-heading4 {
     font-size: 42px;
   }
 }
 
 @include lg {
-  .sec-title4 {
+  .section-heading4 {
     font-size: 36px;
     line-height: 1.4;
   }
 }
 
 @include md {
-  .sec-title3.h1,
-  .sec-title.h1 {
+  .section-heading3.h1,
+  .section-heading.h1 {
     font-size: 36px;
   }
 
@@ -128,15 +128,15 @@
     margin-bottom: 15px;
   }
   
-  .title-area {
+  .heading-area {
     margin-bottom: 40px;
   }
 }
 
 
 @include sm {
-  .sec-title3.h1,
-  .sec-title.h1 {
+  .section-heading3.h1,
+  .section-heading.h1 {
     font-size: 30px;
   }
 
@@ -149,7 +149,7 @@
     gap: 10px;
   }
 
-  .sec-title4 {
+  .section-heading4 {
     font-size: 30px;
     line-height: 1.4;
   }

@@ -171,7 +171,7 @@ blockquote.vs-quote {
   }
 }
 
-.vs-blog {
+.blog-card {
   margin-bottom: 30px;
 }
 
@@ -489,7 +489,7 @@ blockquote.vs-quote {
   }
 }
 
-.blog-style4 {
+.blog-card4 {
   box-shadow: 8.5px 0 60px 0px rgba(166, 170, 184, 0.05);
   border-radius: 20px;
   padding: 20px;
@@ -539,7 +539,7 @@ blockquote.vs-quote {
 
 
 @media (min-width: $lg) {
-  .blog-style4-slider {
+  .blog-card4-slider {
     max-width: 775px;
   }
 }
@@ -593,7 +593,7 @@ blockquote.vs-quote {
   }
 
 
-  .blog-style4 {
+  .blog-card4 {
     padding: 10px;
 
     .blog-content {

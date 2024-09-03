@@ -1,8 +1,8 @@
-.widget_nav_menu,
-.widget_meta,
-.widget_pages,
-.widget_archive,
-.widget_categories {
+.footer-link-box_nav_menu,
+.footer-link-box_meta,
+.footer-link-box_pages,
+.footer-link-box_archive,
+.footer-link-box_categories {
 
   ul {
     list-style: none;
@@ -71,16 +71,16 @@
   }
 }
 
-.widget_nav_menu,
-.widget_meta,
-.widget_pages {
+.footer-link-box_nav_menu,
+.footer-link-box_meta,
+.footer-link-box_pages {
   a {
     padding-right: 20px;
   }
 }
 
 
-.widget_nav_menu {
+.footer-link-box_nav_menu {
   .sub-menu {
     margin-left: 10px;
   }
@@ -97,18 +97,18 @@
   }
 }
 
-.vs-blog ul.wp-block-archives li {
+.blog-card ul.wp-block-archives li {
   margin: 5px 0;
 }
 
 
 
 @include sm {
-  .widget_nav_menu,
-  .widget_meta,
-  .widget_pages,
-  .widget_archive,
-  .widget_categories {
+  .footer-link-box_nav_menu,
+  .footer-link-box_meta,
+  .footer-link-box_pages,
+  .footer-link-box_archive,
+  .footer-link-box_categories {
     a {
       font-size: 14px;
     }

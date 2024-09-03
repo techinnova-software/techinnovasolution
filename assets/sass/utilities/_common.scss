@@ -34,7 +34,7 @@
 }
 
 
-.media-body {
+.footer-address-content {
   flex: 1;
 }
 
@@ -104,7 +104,7 @@
   bottom: -26px;
 }
 
-.home-five-shape1 {
+.home-section-shape1 {
   position: absolute;
   left: 0;
   top: 0;
@@ -115,7 +115,7 @@
   z-index: -3;
 }
 
-.home-five-shape2 {
+.home-section-shape2 {
   position: absolute;
   left: -428px;
   bottom: 250px;
@@ -126,13 +126,13 @@
   z-index: -2;
 }
 
-.home-five-shape3 {
+.home-section-shape3 {
   position: absolute;
   right: 60px;
   bottom: 325px;
 }
 
-.home-five-wrap1 {
+.home-section-wrap1 {
   position: relative;
   border-bottom: 7px solid $theme-color;
   z-index: 1;
@@ -158,20 +158,20 @@
     margin: -168px 30px -59px 0;
   }
 
-  .home-five-shape3 {
+  .home-section-shape3 {
     right: 30px;
     bottom: 50px;
     max-width: 200px;
   }
 
-  .home-five-shape2 {
+  .home-section-shape2 {
     left: -18%;
     bottom: 34%;
     width: 500px;
     height: 500px;
   }
 
-  .home-five-shape1 {
+  .home-section-shape1 {
     max-width: 100%;
     right: 60px;
     width: auto;
@@ -189,7 +189,7 @@
     margin: -128px 40px -42px 0;
   }
 
-  .home-five-shape1 {
+  .home-section-shape1 {
     right: 0;
   }
 }

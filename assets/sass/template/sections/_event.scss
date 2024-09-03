@@ -155,7 +155,7 @@
     }
 
     &__btn {
-      &.vs-btn {
+      &.custom-btn {
         padding: 0;
         width: 130px;
         height: 50px;
@@ -228,7 +228,7 @@
     }
 
     &__btn {
-      &.vs-btn {
+      &.custom-btn {
         width: max-content;
         height: auto;
         line-height: 1;
@@ -291,7 +291,7 @@
     }
 
     &__btn {
-      &.vs-btn {
+      &.custom-btn {
         border: 1px solid $theme-color;
         width: 100px;
         height: 40px;

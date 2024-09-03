@@ -1,5 +1,5 @@
-.widget {
-  padding: var(--widget-padding-y, 40px) var(--widget-padding-x, 40px);
+.footer-link-box {
+  padding: var(--footer-link-box-padding-y, 40px) var(--footer-link-box-padding-x, 40px);
   background-color: $smoke-color;
   position: relative;
   margin-bottom: 40px;
@@ -15,7 +15,7 @@
   }
 }
 
-.widget_title {
+.footer-link-box_title {
   position: relative;
   font-size: 24px;
   font-weight: 700;
@@ -24,7 +24,7 @@
   font-family: $title-font;
 }
 
-.widget {
+.footer-link-box {
   .search-form {
     position: relative;
     display: flex;    
@@ -240,7 +240,7 @@
   }
 }
 
-.widget_shopping_cart {
+.footer-link-box_shopping_cart {
   text-align: left;
 
   ul {
@@ -361,7 +361,7 @@
     }
   }
 
-  .vs-btn {
+  .custom-btn {
     border: 1px solid $title-color;
     color: $title-color;
     margin-right: 10px;
@@ -409,7 +409,7 @@
     }
   }
 
-  .widget .wp-block-search {
+  .footer-link-box .wp-block-search {
     margin-bottom: 0;
   }
 
@@ -448,7 +448,7 @@
   }
 }
 
-.widget-workhours {
+.footer-link-box-workhours {
   ul {
     margin: 0;
     padding: 0;
@@ -498,12 +498,12 @@
 }
 
 @include lg {
-  .widget {
-    --widget-padding-y: 30px;
-    --widget-padding-x: 30px;
+  .footer-link-box {
+    --footer-link-box-padding-y: 30px;
+    --footer-link-box-padding-x: 30px;
   }
 
-  .widget_title {
+  .footer-link-box_title {
     font-size: 20px;
     margin-bottom: 25px;
   }
@@ -519,7 +519,7 @@
     }
   }
 
-  .widget-workhours {
+  .footer-link-box-workhours {
     li {
       padding: 14.5px 20px;
       font-size: 14px;
@@ -542,7 +542,7 @@
 }
 
 @include sm {
-  .contact-widget {
+  .contact-footer-link-box {
     .icon {
       --icon-size: 30px;
       --icon-font-size: 12px;
@@ -562,7 +562,7 @@
 }
 
 @include xs {
-  .widget {
+  .footer-link-box {
     padding: 30px 20px;
   }
 }

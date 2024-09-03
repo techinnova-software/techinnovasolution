@@ -1,4 +1,4 @@
-.vs-header {
+.header-section {
   position: relative;
   z-index: 41;
 }
@@ -762,149 +762,6 @@
   }
 }
 
-
-.header-layout3,
-.header-layout1 {
-  .header-top {
-    background-color: $theme-color;
-    padding: 9.5px 0;
-  }
-}
-
-.header-layout1 {
-  .menu-top {
-    border-bottom: 1px solid #E7EBF3;
-  }
-
-  .header-text {
-    color: $white-color;
-  }
-}
-
-.header-layout2 {
-  position: relative;
-  margin-bottom: -55px;
-
-  .header-shape {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: calc(100% - 55px);
-    z-index: -1;
-    background-color: #F6F7FA;
-  }
-
-  .header-top {
-    padding: 27px 0;
-  }
-
-  .menu-area {
-    background-color: $white-color;
-    padding: 0 30px 0 0;
-    border-radius: 5px;
-    box-shadow: 0px 17px 29px rgba(32, 56, 105, 0.18);
-  }
-
-  .vs-menu-toggle {
-    border-radius: 5px;
-  }
-
-  .will-sticky .sticky-active {
-    box-shadow: none;
-    background-color: transparent;
-  }
-}
-
-.header-layout3 {
-  position: relative;
-
-  @media (min-width: $lg) {
-
-    .header-box-wrap,
-    .header-top,
-    .sticky-wrapper:not(.will-sticky) {
-      --box-width: 290px;
-      --main-container: 1680px;
-
-      .container {
-        padding-right: var(--box-width);
-      }
-    }
-
-    .header-box {
-      width: calc(var(--box-width) - 40px);
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  }
-
-  @media (max-width: $xl) and (min-width: $lg) {
-    --main-container: 1320px;
-
-    .main-menu>ul>li {
-      margin: 0 12px;
-    }
-  }
-}
-
-
-
-.header-layout5 {
-  position: relative;
-
-  @media (min-width: $xl) {
-    --main-container: 1430px;
-  }
-
-  .header-shape1 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: calc(100% - 63px);
-    background-color: $theme-color;
-    z-index: -1;
-  }
-
-  .menu-area {
-    background-color: $white-color;
-    z-index: 1;
-    
-    @media (min-width: $xl) {
-      max-width: 1518px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-  }
-
-  .header-top {
-    padding: 12.5px 0;
-    position: relative;
-    z-index: 2;
-  }
-
-  .header-social {
-    @media (min-width: $sm) {
-      border-left: 1px solid #558EFF;
-      padding-left: 4px;
-    }
-
-    a {
-      &:hover {
-        color: rgba(#fff, 0.7);
-      }
-    }
-  }
-
-  .header-links a {
-    &:hover {
-      color: rgba(#fff, 0.7);
-    }
-  }
-}
-
 .header-layout6 {
   position: absolute;
   left: 0;
@@ -1025,18 +882,6 @@
 
   .logo-style1 {
     padding: 20px 20px 20px 20px;
-  }
-
-  .header-layout1 {
-    .vs-menu-toggle {
-      margin: 10px 0;
-    }
-  }
-
-  .header-layout2 {
-    .menu-area {
-      padding: 0 20px 0 0;
-    }
   }
 }
 

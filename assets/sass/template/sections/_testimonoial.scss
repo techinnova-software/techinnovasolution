@@ -5,7 +5,7 @@
 
 
 
-.testi-style1 {
+.review-section1 {
   background-color: #F8F8F9;
   padding: 1px 40px 35px 40px;
   margin: 15px 0 30px 0;
@@ -37,11 +37,11 @@
     }
   }
 
-  .testi-text {
+  .review-content {
     margin: 0 0 22px 0;
   }
 
-  .testi-name {
+  .review-name {
     margin: 0;
   }
 
@@ -52,19 +52,19 @@
   }
 }
 
-.testi-style2 {
+.review-section2 {
   background-color: $white-color;
   box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
   border-radius: 5px;
   padding: 50px 50px 40px 50px;
   margin: 0 0 30px 0;
   
-  .testi-body {
+  .review-body {
     display: flex;
     margin: 0 0 12px 0;
   }
 
-  .author-img {
+  .review-profile {
     width: 80px;
     height: 80px;
     overflow: hidden;
@@ -72,14 +72,14 @@
     border-radius: 5px;
   }
 
-  .testi-text {
+  .review-content {
     font-family: $title-font;
     line-height: 30px;
     font-size: 16px;
     font-style: italic;
   }
 
-  .testi-name {
+  .review-name {
     font-size: 18px;
     font-weight: 600;
     margin: 0 0 2px 0;
@@ -93,10 +93,10 @@
 
 }
 
-.testi-style2-slide {
+.review-section2-slide {
   margin-top: -30px;
 
-  .testi-style2 {
+  .review-section2 {
     box-shadow: 0px 10px 21px rgba(169, 177, 193, 0.15);    
     margin-top: 30px;
   }
@@ -137,7 +137,7 @@
     font-size: 14px;
   }
 
-  .author-img {
+  .review-profile {
     margin: 0 15px 0 0;
     width: 60px;
     border-radius: 50%;
@@ -160,8 +160,8 @@
 }
 
 
-.testi-text-slide {
-  .testi-text {
+.review-content-slide {
+  .review-content {
     font-size: 18px;
     margin: 10px 0 30px 0;
   }
@@ -215,7 +215,7 @@
   width: 750px;
 }
 
-.testi-style3 {
+.review-section3 {
   background-color: $white-color;
   padding: 40px 40px 32px 40px;
   border-radius: 50px;
@@ -229,7 +229,7 @@
     margin: 0 0 20px 0;
   }
 
-  .author-img {
+  .review-profile {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -241,7 +241,7 @@
     }
   }
 
-  .testi-name {
+  .review-name {
     font-size: 18px;
     font-weight: 600;
     margin: 0;
@@ -273,7 +273,7 @@
 }
 
 
-.testi-style4 {
+.review-section4 {
   background-color: $white-color;
   padding: 50px 50px 40px 50px;
   transform: skewY(-5deg);
@@ -281,11 +281,11 @@
   margin: 26px 0 56px 0;
   box-shadow: 4px 5px 60px 0px rgba(178, 180, 187, 0.05);
 
-  .testi-body {
+  .review-body {
     transform: skewY(5deg);
   }
   
-  .author-img {
+  .review-profile {
     width: 100px;
     height: 100px;
     position: relative;
@@ -320,7 +320,7 @@
     }
   }
 
-  .testi-name {
+  .review-name {
     font-weight: 600;
     margin: 0 0 0px 0;
   }
@@ -387,7 +387,7 @@
     margin-right: -100px;
   }
 
-  .testi-style3 {
+  .review-section3 {
     padding: 40px 30px 32px 30px;
   }
 
@@ -400,25 +400,25 @@
     padding-top: 0;
   }
 
-  .testi-style4 {
+  .review-section4 {
     padding: 35px 30px 30px 30px;
   }
 }
 
 @include lg {
-  .testi-style1 {
+  .review-section1 {
     padding: 1px 25px 35px 25px;
   }  
 
-  .testi-style2 {
+  .review-section2 {
     padding: 40px 40px 30px 40px;
     text-align: center;
 
-    .author-img {
+    .review-profile {
       margin: 0 auto 15px auto;
     }
 
-    .testi-body {
+    .review-body {
       display: flex;
       margin: 0 0 0 0;
       flex-direction: column-reverse;
@@ -445,7 +445,7 @@
 }
 
 @include md {
-  .testi-style2 {
+  .review-section2 {
     padding: 30px;
   }
 
@@ -467,14 +467,14 @@
     text-align: center;
   }
 
-  .testi-style4 {
+  .review-section4 {
     transform: none;
 
-    .testi-body {
+    .review-body {
       transform: none;
     }
 
-    .author-img {
+    .review-profile {
       width: 70px;
       height: 70px;
       margin-bottom: 20px;

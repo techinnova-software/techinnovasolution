@@ -48,7 +48,7 @@
   /*---------- 03. Mobile Menu Active ----------*/
   $.fn.vsmobilemenu = function (options) {
     var opt = $.extend({
-      menuToggleBtn: '.vs-menu-toggle',
+      menuToggleBtn: '.mobile-menu-toggle',
       bodyToggleClass: 'vs-body-visible',
       subMenuClass: 'vs-submenu',
       subMenuParent: 'vs-item-has-children',
@@ -130,7 +130,7 @@
     });
   };
 
-  $('.vs-menu-wrapper').vsmobilemenu();
+  $('.mobile-menu').vsmobilemenu();
 
 
   /*---------- 04. Sticky fix ----------*/
@@ -261,7 +261,7 @@
 
 
   /*----------- 08. Global Slider ----------*/
-  $('.vs-carousel').each(function () {
+  $('.review-carousel').each(function () {
     var vsSlide = $(this);
 
     // Collect Data 
@@ -609,7 +609,7 @@
       })
     }
   };
-  onePageNav('.onepage-nav, .main-menu, .vs-mobile-menu');
+  onePageNav('.onepage-nav, .main-menu, .inner-mobile-menu');
   
   
   

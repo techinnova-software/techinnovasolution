@@ -659,7 +659,7 @@
     }
   }
 
-  .media-body {
+  .footer-address-content {
     background-color: $white-color;
     height: 100px;
     display: flex;
@@ -763,11 +763,11 @@
   padding-left: 50px;
   position: relative;
 
-  .sec-title4 {
+  .section-heading4 {
     margin-bottom: 44px;
   }
 
-  .vs-btn {
+  .custom-btn {
     margin-top: 40px;
     
     @media (min-width: 1800px) {
@@ -930,7 +930,7 @@
   }
 
   .about-box3 {
-    .sec-title4 {
+    .section-heading4 {
       margin-bottom: 30px;
     }
   }

@@ -58,12 +58,12 @@
     }
   }
 
-  .vs-btn {
+  .custom-btn {
     width: 100%;
   }
 
   
-  .vs-btn,
+  .custom-btn,
   .price-features,
   .price-duration,
   .price-amount,
@@ -89,7 +89,7 @@
     color: $white-color;
   }
 
-  .vs-btn {
+  .custom-btn {
     background-color: $white-color;
     color: $theme-color;
 
@@ -297,7 +297,7 @@
       }
     }
 
-    .vs-btn {
+    .custom-btn {
       padding: 14px 19px;
       font-size: 14px;
     }

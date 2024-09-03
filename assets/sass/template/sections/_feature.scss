@@ -29,7 +29,7 @@
   }
 
   &:hover {
-    .vs-btn {
+    .custom-btn {
       background-color: $theme-color;
       color: $white-color;
     }
@@ -91,7 +91,7 @@
 
 @media (min-width: $lg) {
   .feature-wrap1 {
-    &.space-top {
+    &.margintop-extra {
       padding-top: 1px;
     }
 

@@ -1,5 +1,5 @@
 .space,
-.space-top {
+.margintop-extra {
   padding-top: $space;
 }
 
@@ -14,14 +14,14 @@
 }
 
 .space-extra,
-.space-extra-bottom {
+.bottom-gap {
   padding-bottom: $space-extra;
 }
 
 
 @include md {
   .space,
-  .space-top {
+  .margintop-extra {
     padding-top: $space-mobile;
   }
 
@@ -36,11 +36,11 @@
   }
 
   .space-extra,
-  .space-extra-bottom {
+  .bottom-gap {
     padding-bottom: $space-mobile-extra;
   }
 
-  .space-top-md-none {
+  .margintop-extra-md-none {
     padding-top: 0;
   }
 }

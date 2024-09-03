@@ -94,7 +94,7 @@
       color: $white-color;
     }
 
-    .vs-btn {
+    .custom-btn {
       background-color: $white-color;
     }
 
@@ -551,11 +551,11 @@
 }
 
 .service-sidebar {  
-  .widget_nav_menu,
-  .widget_meta,
-  .widget_pages,
-  .widget_archive,
-  .widget_categories {
+  .footer-link-box_nav_menu,
+  .footer-link-box_meta,
+  .footer-link-box_pages,
+  .footer-link-box_archive,
+  .footer-link-box_categories {
     a {
       &::before {
         content: '\f061';

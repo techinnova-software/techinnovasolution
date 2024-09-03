@@ -1041,7 +1041,7 @@
 
 @include lg {
   .ls-btn-group {
-    .vs-btn {
+    .custom-btn {
       padding: 15px 25px;
       font-size: 14px;
     }
@@ -1313,13 +1313,13 @@
     justify-content: center;
     gap: 10px;
 
-    .vs-btn {
+    .custom-btn {
       padding: 11.5px 14px;
       font-size: 12px;
     }
   }
 
-  .vs-btn {
+  .custom-btn {
     &.style10.mobile-white {
       background-color: $white-color;
       border-color: transparent;

@@ -35,7 +35,7 @@ Version: 1.0.0
     3.9. Overlay
     3.10. Animation
 04. Template Style
-    4.1. Widget
+    4.1. footer-link-box
     4.2. Header
     4.3. Footer
     4.4. Breadcumb
@@ -142,10 +142,10 @@ Version: 1.0.0
 /*=================================
     04. Template Style
 ==================================*/
-/*------------------- 4.1. Widget  -------------------*/
-@import 'template/widgets/widget-default-list';
-@import 'template/widgets/widget-sidebar';
-@import 'template/widgets/widget-footer';
+/*------------------- 4.1. footer-link-box  -------------------*/
+@import 'template/footer-link-boxs/footer-link-box-default-list';
+@import 'template/footer-link-boxs/footer-link-box-sidebar';
+@import 'template/footer-link-boxs/footer-link-box-footer';
 
 
 /*------------------- 4.2. Header  -------------------*/
