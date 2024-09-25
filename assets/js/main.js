@@ -671,12 +671,31 @@
     });
   }
   
-  
-
-
-
 })(jQuery);
 
-function handleSubmit(){
-  location.reload();
+async function handleSubmit(event) {
+  event.preventDefault();
+
+  const form = event.target;
+  const formData = new FormData(form);
+
+  try {
+      const response = await fetch('https://formspree.io/f/mblrwnqk', {
+          method: 'POST',
+          body: formData,
+          headers: {
+              'Accept': 'application/json'
+          }
+      });
+
+      if (response.ok) {
+          const data = await response.json();
+          console.log('Success:', data);
+          form.reset()
+      } else {
+          console.error('Error:', response.statusText);
+      }
+  } catch (error) {
+      console.error('Fetch error:', error);
+  }
 }
